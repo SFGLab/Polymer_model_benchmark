@@ -1,0 +1,12 @@
+# webserver:
+https://spring-model.mini.pw.edu.pl/
+# works for example, doesn't work for the region of interest
+
+# standalone version:
+git clone git@bitbucket.org:4dnucleome/md_soft.git
+
+pip install -r requirements.txt
+# needs also points_io https://bitbucket.org/4dnucleome/points_io/src/master/
+
+# run
+python3 run.py -h

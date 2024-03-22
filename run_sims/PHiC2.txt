@@ -1,0 +1,9 @@
+pip install phic
+
+git clone https://github.com/soyashinkai/PHi-C2.git
+
+# prepare region of interest input
+python3 demo/make_demo_input_by_Straw.py # change variables
+
+# run
+./run.sh
