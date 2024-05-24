@@ -3,7 +3,7 @@
 
 ## Repository structure
 
-1. We provide information about running software in the [run_sims/](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/run_sims) folder.
+1. We provide information about running the chosen software for chromatin structure modeling in the [run_sims/](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/run_sims) folder.
 2. We put the scripts for model comparison in the [analysis/](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/analysis) folder. Inside we provide the Jupyter Notebooks that constitue the workflow:
 
 - [make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb): to generate distance matrices from output models of chromatin structure (in the XYZ, PDB or CIF format)
