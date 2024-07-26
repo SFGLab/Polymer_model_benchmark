@@ -3,19 +3,19 @@
 
 ## Repository structure
 
-1. We provide information about running the chosen software for chromatin structure modeling in the [run_sims/](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/run_sims) folder.
-2. We put the scripts for model comparison in the [analysis/](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/analysis) folder. Inside we provide the Jupyter Notebooks that constitue the workflow:
+1. We provide instructions how to run software for chromatin structure modeling in [run_sims/](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/run_sims)
+2. We put the scripts for model comparison in [analysis/](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/analysis):
 
-- [make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb): to generate distance matrices from output models of chromatin structure (in the XYZ, PDB or CIF format)
-- [process_distance_matrices.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/process_distance_matrices.ipynb): to process the distance matrices, calculate Spearman correlation coefficients between those matrices and plot the results of model comparison and validation
+- [make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb): to generate distance matrices from models (in the XYZ, PDB or CIF format)
+- [process_distance_matrices.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/process_distance_matrices.ipynb): to process distance matrices, calculate Spearman correlation coefficients and plot the results
 
 Additionally we provide the Conda environment YAML files (one file for each Team member) in the [yamls/](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/yamls) folder.
 
 ## Workflow
 
 1. Run software for chromatin structure prediction.
-2. Interpolate the generated models to the same number of coordinates (e.g., 214).
-3. Calculate distance matrices for the models ([make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb)).
+2. Interpolate the models to the same number of coordinates (e.g., n=214).
+3. Calculate distance matrices ([make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb)).
 4. Compare pairs of distance matrices ([process_distance_matrices.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/process_distance_matrices.ipynb)).
 
 ## Data used during the Hackathon
