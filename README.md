@@ -24,7 +24,7 @@ Additionally we provide the Conda environment YAML files (one file for each Team
 
 **4DN Data Portal (https://data.4dnucleome.org/)**
 - HiC: 4DNES4AABNEZ, 4DNESNMAAN97
-- SPRITE:
+- SPRITE: 4DNESI1U7ZW9
 
 **ENCODE (https://www.encodeproject.org/)**
 - HiC: ENCSR968KAY
