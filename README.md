@@ -53,18 +53,18 @@ On March 18-21, 2024 at The University of Washington in Seattle, USA, we conduct
 
 ### References
 
-[^1]. Biorxiv:
+[^1]: Biorxiv:
 
-[^2]. Korsak, S., & Plewczynski, D. (2024). LoopSage: An energy-based Monte Carlo approach for the loop extrusion modeling of chromatin. Methods, 223, 106–117. https://doi.org/10.1016/j.ymeth.2024.01.015
+[^2]: Korsak, S., & Plewczynski, D. (2024). LoopSage: An energy-based Monte Carlo approach for the loop extrusion modeling of chromatin. Methods, 223, 106–117. https://doi.org/10.1016/j.ymeth.2024.01.015
 
-[^3]. Di Pierro, M., Zhang, B., Aiden, E. L., Wolynes, P. G., & Onuchic, J. N. (2016). Transferable model for chromosome architecture. Proceedings of the National Academy of Sciences, 113(43), 12168–12173. https://doi.org/10.1073/pnas.1613607113
+[^3]: Di Pierro, M., Zhang, B., Aiden, E. L., Wolynes, P. G., & Onuchic, J. N. (2016). Transferable model for chromosome architecture. Proceedings of the National Academy of Sciences, 113(43), 12168–12173. https://doi.org/10.1073/pnas.1613607113
 
-[^4]. Shi, G., & Thirumalai, D. (2023). A maximum-entropy model to predict 3D structural ensembles of chromatin from pairwise distances with applications to interphase chromosomes and structural variants. Nature Communications, 14(1), 1150. https://doi.org/10.1038/s41467-023-36412-4
+[^4]: Shi, G., & Thirumalai, D. (2023). A maximum-entropy model to predict 3D structural ensembles of chromatin from pairwise distances with applications to interphase chromosomes and structural variants. Nature Communications, 14(1), 1150. https://doi.org/10.1038/s41467-023-36412-4
 
-[^5]. Shinkai, S., Itoga, H., Kyoda, K., & Onami, S. (2022). PHi-C2: Interpreting Hi-C data as the dynamic 3D genome state. Bioinformatics, 38(21), 4984–4986. https://doi.org/10.1093/bioinformatics/btac613
+[^5]: Shinkai, S., Itoga, H., Kyoda, K., & Onami, S. (2022). PHi-C2: Interpreting Hi-C data as the dynamic 3D genome state. Bioinformatics, 38(21), 4984–4986. https://doi.org/10.1093/bioinformatics/btac613
 
-[^6]. Korsak, S., Banecki, K., & Plewczynski, D. (2024). Multiscale molecular modelling of chromatin with multimm: From nucleosomes to the whole genome. Cold Spring Harbor Laboratory. http://dx.doi.org/10.1101/2024.07.26.605260
+[^6]: Korsak, S., Banecki, K., & Plewczynski, D. (2024). Multiscale molecular modelling of chromatin with multimm: From nucleosomes to the whole genome. Cold Spring Harbor Laboratory. http://dx.doi.org/10.1101/2024.07.26.605260
 
-[^7]. Reiff, S. B., Schroeder, A. J., Kırlı, K., Cosolo, A., Bakker, C., Mercado, L., Lee, S., Veit, A. D., Balashov, A. K., Vitzthum, C., Ronchetti, W., Pitman, K. M., Johnson, J., Ehmsen, S. R., Kerpedjiev, P., Abdennur, N., Imakaev, M., Öztürk, S. U., Çamoğlu, U., … Park, P. J. (2022). The 4D Nucleome Data Portal as a resource for searching and visualizing curated nucleomics data. Nature Communications, 13(1), 2365. https://doi.org/10.1038/s41467-022-29697-4
+[^7]: Reiff, S. B., Schroeder, A. J., Kırlı, K., Cosolo, A., Bakker, C., Mercado, L., Lee, S., Veit, A. D., Balashov, A. K., Vitzthum, C., Ronchetti, W., Pitman, K. M., Johnson, J., Ehmsen, S. R., Kerpedjiev, P., Abdennur, N., Imakaev, M., Öztürk, S. U., Çamoğlu, U., … Park, P. J. (2022). The 4D Nucleome Data Portal as a resource for searching and visualizing curated nucleomics data. Nature Communications, 13(1), 2365. https://doi.org/10.1038/s41467-022-29697-4
 
-[^8]. The ENCODE Project Consortium. (2012). An integrated encyclopedia of DNA elements in the human genome. Nature, 489(7414), 57–74. https://doi.org/10.1038/nature11247
+[^8]: The ENCODE Project Consortium. (2012). An integrated encyclopedia of DNA elements in the human genome. Nature, 489(7414), 57–74. https://doi.org/10.1038/nature11247
