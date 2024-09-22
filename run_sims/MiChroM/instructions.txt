@@ -1,0 +1,5 @@
+Link: https://open-michrom.readthedocs.io/en/latest/OpenMiChroM.html
+
+Reference: Di Pierro, M., Zhang, B., Aiden, E. L., Wolynes, P. G., & Onuchic, J. N. (2016). 
+Transferable model for chromosome architecture. Proceedings of the National Academy of Sciences, 
+113(43), 12168–12173. https://doi.org/10.1073/pnas.1613607113

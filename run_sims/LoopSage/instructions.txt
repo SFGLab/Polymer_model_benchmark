@@ -1,0 +1,5 @@
+Link: https://github.com/SFGLab/LoopSage
+
+Reference: Korsak, S., & Plewczynski, D. (2024). LoopSage: An energy-based Monte Carlo approach 
+for the loop extrusion modeling of chromatin. Methods, 223, 106–117. 
+https://doi.org/10.1016/j.ymeth.2024.01.015

@@ -1,0 +1,5 @@
+Link: https://github.com/SFGLab/MultiMM
+
+Reference: Korsak, S., Banecki, K., & Plewczynski, D. (2024). Multiscale molecular modelling 
+of chromatin with multimm: From nucleosomes to the whole genome. Cold Spring Harbor Laboratory. 
+http://dx.doi.org/10.1101/2024.07.26.605260

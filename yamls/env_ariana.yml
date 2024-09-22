@@ -1,4 +1,4 @@
-name: ariana
+name: env_ariana
 channels:
   - plotly
   - anaconda
@@ -274,4 +274,4 @@ dependencies:
   - zstd=1.5.5=hfc55251_0
   - pip:
       - py3dmol==2.1.0
-prefix: /home/ariana/.conda/envs/scratch
+prefix: /home/ariana/.conda/envs/env_ariana

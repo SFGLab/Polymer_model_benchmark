@@ -1,3 +1,7 @@
+Other software tested during the hackathon:
+
+1. Spring-model
+
 # webserver:
 https://spring-model.mini.pw.edu.pl/
 # works for example, doesn't work for the region of interest
@@ -10,3 +14,19 @@ pip install -r requirements.txt
 
 # run
 python3 run.py -h
+
+
+2. HiCNet
+
+wget http://dna.cs.miami.edu/HiCNet/data/HiCNet_package.tar.gz
+
+# follow README
+
+# issue with installing IPOPT
+
+
+3. ChromFormer
+
+git clone https://github.com/AI4SCR/ChromFormer.git
+
+# no easily accessible documentation how to run

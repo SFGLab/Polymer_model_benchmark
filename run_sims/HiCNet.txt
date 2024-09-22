@@ -1,5 +1,0 @@
-wget http://dna.cs.miami.edu/HiCNet/data/HiCNet_package.tar.gz
-
-# follow README
-
-# issue with installing IPOPT

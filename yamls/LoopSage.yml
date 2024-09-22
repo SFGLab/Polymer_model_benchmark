@@ -1,4 +1,4 @@
-name: LoopSage
+name: env_LoopSage
 channels:
   - jrhawley
   - conda-forge
@@ -219,4 +219,4 @@ dependencies:
   - pip:
       - cuda-python==12.4.0
       - sewar==0.4.6
-prefix: /home/ay328/.conda/envs/LoopSage
+prefix: /home/usr/.conda/envs/LoopSage
