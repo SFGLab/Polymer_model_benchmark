@@ -38,11 +38,11 @@ On March 18-21, 2024 at The University of Washington in Seattle, USA, we conduct
 
 **genomic region of interest:** chr1:178421513-179491193
 
-**4DN Data Portal (https://data.4dnucleome.org/)[^7]**
+**4DN Data Portal** (https://data.4dnucleome.org/)
 - Hi-C: 4DNES4AABNEZ, 4DNESNMAAN97
 - SPRITE: 4DNESI1U7ZW9
 
-**ENCODE (https://www.encodeproject.org/)[^8]**
+**ENCODE** (https://www.encodeproject.org/)
 - Hi-C: ENCSR968KAY
 - ChIA-PET: ENCSR184YZV_CTCF_ChIAPET (ENCFF379AWZ.hic), ENCSR764VXA
 - ChIP-Seq: ENCSR000DZN_CTCF, ENCSR000DZP_SMC
@@ -64,7 +64,3 @@ On March 18-21, 2024 at The University of Washington in Seattle, USA, we conduct
 [^5]: Shinkai, S., Itoga, H., Kyoda, K., & Onami, S. (2022). PHi-C2: Interpreting Hi-C data as the dynamic 3D genome state. Bioinformatics, 38(21), 4984–4986. https://doi.org/10.1093/bioinformatics/btac613
 
 [^6]: Korsak, S., Banecki, K., & Plewczynski, D. (2024). Multiscale molecular modelling of chromatin with multimm: From nucleosomes to the whole genome. Cold Spring Harbor Laboratory. http://dx.doi.org/10.1101/2024.07.26.605260
-
-[^7]: Reiff, S. B., Schroeder, A. J., Kırlı, K., Cosolo, A., Bakker, C., Mercado, L., Lee, S., Veit, A. D., Balashov, A. K., Vitzthum, C., Ronchetti, W., Pitman, K. M., Johnson, J., Ehmsen, S. R., Kerpedjiev, P., Abdennur, N., Imakaev, M., Öztürk, S. U., Çamoğlu, U., … Park, P. J. (2022). The 4D Nucleome Data Portal as a resource for searching and visualizing curated nucleomics data. Nature Communications, 13(1), 2365. https://doi.org/10.1038/s41467-022-29697-4
-
-[^8]: The ENCODE Project Consortium. (2012). An integrated encyclopedia of DNA elements in the human genome. Nature, 489(7414), 57–74. https://doi.org/10.1038/nature11247
