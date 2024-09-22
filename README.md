@@ -13,7 +13,7 @@ On March 18-21, 2024 at The University of Washington in Seattle, USA, we conduct
     - [make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb) - generate distance matrices from models (in the XYZ, PDB or CIF format)
     - [process_distance_matrices.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/process_distance_matrices.ipynb) - process distance matrices, calculate Spearman correlation coefficients and plot the results
 
-- [yamls](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/yamls) - conda environment YAML files (one file for each Team member)
+- [yamls](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/yamls) - conda environment YAML files (one file per software or Team member)
 
 - [scratch](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/scratch) - playground notebooks that we used during the hackathon
 
