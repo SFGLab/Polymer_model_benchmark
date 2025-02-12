@@ -1,0 +1,4 @@
+> https://github.com/anyuzx/HIPPS-DIMES
+git clone https://github.com/anyuzx/HIPPS-DIMES
+cd HIPPS-DIMES
+pip3 install --editable .

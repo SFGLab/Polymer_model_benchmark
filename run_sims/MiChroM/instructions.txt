@@ -1,4 +1,10 @@
-Link: https://open-michrom.readthedocs.io/en/latest/OpenMiChroM.html
+> Link: https://open-michrom.readthedocs.io/en/latest/OpenMiChroM.html
+
+> https://pypi.org/project/OpenMM/
+pip install OpenMM
+
+> https://open-michrom.readthedocs.io/en/latest/GettingStarted/install.html
+pip install OpenMiChroM
 
 Reference: Di Pierro, M., Zhang, B., Aiden, E. L., Wolynes, P. G., & Onuchic, J. N. (2016). 
 Transferable model for chromosome architecture. Proceedings of the National Academy of Sciences, 
