@@ -53,7 +53,7 @@ On March 18-21, 2024 at The University of Washington in Seattle, USA, we conduct
 
 ### References
 
-[^1]: Biorxiv:
+[^1]: Biorxiv: https://doi.org/10.1101/2024.10.02.616241
 
 [^2]: Korsak, S., & Plewczynski, D. (2024). LoopSage: An energy-based Monte Carlo approach for the loop extrusion modeling of chromatin. Methods, 223, 106–117. https://doi.org/10.1016/j.ymeth.2024.01.015
 
