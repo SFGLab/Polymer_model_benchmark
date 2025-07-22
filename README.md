@@ -8,7 +8,7 @@ In March 2024, at The University of Washington in Seattle (USA) we conducted a p
 ### Repository structure
 
 - [run_sims](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/run_sims) - instructions how to run software
-- 
+
 - [analysis:](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/analysis)
 
     - [make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb) - notebook to generate distance matrices from models (in the XYZ, PDB or CIF format)
