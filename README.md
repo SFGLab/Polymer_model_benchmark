@@ -1,29 +1,32 @@
 ## Chromatin model comparison and validation
 
-### 4DN Nucleome Hackathon 2024
+### 4D Nucleome Hackathon 2024
 
-On March 18-21, 2024 at The University of Washington in Seattle, USA, we conducted a project to address two challenges in genomic research: comparison and validation of chromatin models. These challenges seem straightforward, however they constitute a difficult challenge. During the hackathon we develop a workflow for model comparison and validation, in which we convert models to distance matrices and we calculate Spearman correlation coefficients between pairs of matrices to estimate the correlations between the models. We followed the workflow with 5 distinct software packages for chromatin modeling. Our results have been published as a preprint on biorxiv[^1].
+In March 2024, at The University of Washington in Seattle (USA) we conducted a project to address two challenges in the research of functional and structural genomics: comparison and validation of chromatin models. During the hackathon we developed a workflow for model comparison and validation, in which we convert models to distance matrices and calculate Spearman correlation coefficients between pairs of matrices to estimate the correlations between the models. We ran 5 distinct software packages for chromatin modeling for testing. Our results are available on biorxiv[^1].
 
 
 ### Repository structure
 
-- [run_sims](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/run_sims) - instructions how to run certain software for chromatin structure modeling
+- [run_sims](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/run_sims) - instructions how to run software
+- 
 - [analysis:](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/analysis)
 
-    - [make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb) - generate distance matrices from models (in the XYZ, PDB or CIF format)
-    - [process_distance_matrices.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/process_distance_matrices.ipynb) - process distance matrices, calculate Spearman correlation coefficients and plot the results
+    - [make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb) - notebook to generate distance matrices from models (in the XYZ, PDB or CIF format)
+    - [process_distance_matrices.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/process_distance_matrices.ipynb) - notebook to process distance matrices, calculate Spearman correlation coefficients and for plotting
 
-- [yamls](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/yamls) - conda environment YAML files (one file per software or Team member)
+- [yamls](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/yamls) - conda environment files (one YAML file per software / Team member)
 
 - [scratch](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/scratch) - playground notebooks that we used during the hackathon
+
+- [Model_Validation](https://github.com/SFGLab/Polymer_model_benchmark/tree/main/Model_Validation) - scripts and notebooks for post-hackathon model validation
 
 
 ### Workflow
 
-1. Run software for chromatin structure prediction and collect output models (in XYZ, PDB or CIF format). If the output constitues an ensemble of models, calculate and proceed with the average over the ensemble.
-2. Interpolate the models to the same number of coordinates (e.g., n=214) and calculate distance matrices for each model ([make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb)).
-3. Compare pairs of distance matrices and calculate Spearman correlation coefficients (SCC) ([process_distance_matrices.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/process_distance_matrices.ipynb)).
-4. Compare SCC between pairs of matrices to estimate differences between the models.
+1. Run software and collect chromatin models (in XYZ, PDB or CIF format). If the output constitues an ensemble of models, proceed with the average over the ensemble.
+2. Interpolate the models to the same number of coordinates (e.g., n=214) and calculate distance matrices ([make_dist_mats.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/make_dist_mats.ipynb)).
+3. Calculate Spearman correlation coefficients between pairs of distance matrices. ([process_distance_matrices.ipynb](https://github.com/SFGLab/Polymer_model_benchmark/blob/main/analysis/process_distance_matrices.ipynb)).
+4. Compare correlation coeffitients to estimate the differences between the models.
 
 
 ### Software packages used during the hackathon
